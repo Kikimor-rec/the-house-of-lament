@@ -1,0 +1,20 @@
+{
+  "name": "the-house-of-lament
+t",
+  "version": "1.0.1",
+  "description": "![Обложка](https://github.com/Kikimor-rec/the-house-of-lament/blob/main/assets/maps/house.jpg?raw=true)",
+  "scripts": {
+    "build": "rm -rf dist && zip -r ./the-house-of-lament.zip ./* && mkdir dist && mv ./the-house-of-lament.zip ./dist && cp -fr ./module.json ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kikimor-rec/the-house-of-lament.git"
+  },
+  "keywords": [],
+  "author": "Kikimor-rec",
+  "license": "OGL",
+  "bugs": {
+    "url": "https://github.com/Kikimor-rec/the-house-of-lament/issues"
+  },
+  "homepage": "https://github.com/Kikimor-rec/the-house-of-lament#readme"
+}
