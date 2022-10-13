@@ -1,0 +1,52 @@
+{
+    "name": "the-house-of-lament",
+    "title": "The House of Lament",
+    "description": "<p><span style=\"font-family:Roboto, Helvetica, sans-serif\">«Дом Плача» — это приключение для группы из четырех-шести персонажей 1-го уровня, которые к концу приключения перейдут как минимум на 3-й уровень. Кульминация приключения служит трамплином для будущих приключений во Владениях Ужаса, если вы захотите провести свою кампанию в этих призрачных землях.</span></p>",
+    "version": "1.0.8",
+    "author": "Kikimor",
+    "authors": [
+        {
+            "name": "Kikimor - adaptation for FVTTe",
+            "discord": "Kikimor#2618",
+            "url": "https://boosty.to/kikimor_rec"
+        }
+    ],
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": 9,
+        "verified": "10.286"
+    },
+    "packs": [
+        {
+            "label": "Дом Плача",
+            "type": "Adventure",
+            "name": "dom-placha",
+            "path": "packs/dom-placha.db",
+            "system": "dnd5e",
+            "private": false
+        }
+    ],
+    "requires": [
+        {
+      "id": "Monk's Active Tile Triggers",
+      "type": "module",
+      "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+      "compatibility": {}
+    },
+    {
+      "id": "Monk's TokenBar",
+      "type": "module",
+      "manifest": "https://github.com/ironmonk88/monks-tokenbar/releases/download/10.2/module.json",
+      "compatibility": {}
+    },
+    {
+      "id": "Walls have ears",
+      "type": "module",
+      "manifest": "https://github.com/SebaSOFT/walls-have-ears/releases/download/1.10.1/module.json",
+      "compatibility": {}
+    }
+  ],
+    "manifest": "https://www.dropbox.com/s/yow13rx4gbhxzjm/module.json?dl=1",
+    "download": "https://www.dropbox.com/s/1cqyoy5vofsz5yh/the-house-of-lament.zip?dl=1"
+  }
